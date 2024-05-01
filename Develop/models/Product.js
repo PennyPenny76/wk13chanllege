@@ -27,13 +27,12 @@ Product.init(
       }
     },
 
-    pages: {
+    stock: {
       type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: 10,
       validate: {
         isNumeric: true,
-        msg: 'price must be numeric'
       }
     },
 
